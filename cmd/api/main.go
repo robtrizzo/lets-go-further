@@ -21,6 +21,8 @@ type application struct {
 	logger *slog.Logger
 }
 
+// leaving off on page 40
+
 func main() {
 	var cfg config
 	flag.IntVar(&cfg.port, "port", 4000, "API server port")
