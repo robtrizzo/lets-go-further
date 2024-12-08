@@ -21,7 +21,7 @@ type application struct {
 	logger *slog.Logger
 }
 
-// leaving off on page 40
+// leaving off on page 61
 
 func main() {
 	var cfg config
