@@ -21,7 +21,7 @@ type application struct {
 	logger *slog.Logger
 }
 
-// leaving off on page 94
+// leaving off on chapter 5.2
 
 func main() {
 	var cfg config
