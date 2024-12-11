@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"flag"
 	"fmt"
+	"greenlight/internal/data"
 	"log/slog"
 	"net/http"
 	"os"
@@ -29,9 +30,10 @@ type config struct {
 type application struct {
 	config config
 	logger *slog.Logger
+	models data.Models
 }
 
-// leaving off on chapter 6.1
+// leaving off on chapter 7.1
 
 func main() {
 	var cfg config
@@ -57,6 +59,7 @@ func main() {
 	app := &application{
 		config: cfg,
 		logger: logger,
+		models: data.NewModels(db),
 	}
 
 	srv := &http.Server{
