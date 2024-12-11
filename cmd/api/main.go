@@ -33,7 +33,7 @@ type application struct {
 	models data.Models
 }
 
-// leaving off on chapter 8.1
+// leaving off on chapter 8.2
 
 func main() {
 	var cfg config
