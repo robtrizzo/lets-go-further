@@ -36,7 +36,7 @@ type application struct {
 	models data.Models
 }
 
-// leaving off on chapter 8.2
+// leaving off on chapter 12
 
 func main() {
 	var cfg config
