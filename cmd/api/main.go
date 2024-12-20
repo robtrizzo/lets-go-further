@@ -36,7 +36,7 @@ type application struct {
 	models data.Models
 }
 
-// leaving off on chapter 12
+// leaving off on chapter 13.3 using embedded file systems
 
 func main() {
 	var cfg config
