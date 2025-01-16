@@ -125,7 +125,7 @@ func (app *application) createPasswordResetTokenHandler(w http.ResponseWriter, r
 
 func (app *application) createActivationTokenHandler(w http.ResponseWriter, r *http.Request) {
 	var input struct {
-		Email string `json:"email:`
+		Email string `json:"email"`
 	}
 
 	err := app.readJSON(w, r, &input)
