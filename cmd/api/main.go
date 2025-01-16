@@ -53,7 +53,7 @@ type application struct {
 	wg     sync.WaitGroup
 }
 
-// leaving off on chapter 13.3 using embedded file systems
+// leaving off on chapter 19.4 using embedded file systems
 
 func main() {
 	var cfg config
