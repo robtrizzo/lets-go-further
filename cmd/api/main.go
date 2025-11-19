@@ -56,8 +56,6 @@ type application struct {
 	wg     sync.WaitGroup
 }
 
-// leaving off on chapter 19.4 using embedded file systems
-
 func main() {
 	var cfg config
 	flag.IntVar(&cfg.port, "port", 4000, "API server port")
